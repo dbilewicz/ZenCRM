@@ -43,3 +43,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 ENTRYPOINT ["/bin/sh", "/app/entrypoint.sh"]
+# CI check: arm64 build trigger (temporary)

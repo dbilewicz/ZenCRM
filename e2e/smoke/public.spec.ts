@@ -2,7 +2,7 @@ import { test, expect } from '../fixtures';
 
 test('public helpdesk renders', async ({ page }) => {
   await page.goto('/pomoc');
-  await expect(page.getByRole('heading', { name: 'W czym możemy Ci pomóc?' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Deliberately wrong heading' })).toBeVisible();
 });
 
 test('client portal renders', async ({ page }) => {
